@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import bbmay from "../../assets/images/images/projets/bbmay.png";
+import bbmay from "../../assets/images/images/projets/bbmay.jpg";
 import SDR from "../../assets/images/images/projets/SDR.png";
-import portfolio from "../../assets/images/images/projets/portfolio.png";
-import invest from "../../assets/images/images/projets/invest.png";
-import isafidy from "../../assets/images/images/projets/isafidy.png";
+import portfolio from "../../assets/images/images/projets/portfolio.jpg";
+import invest from "../../assets/images/images/projets/invest.jpg";
+import isafidy from "../../assets/images/images/projets/isafidy.jpg";
 import CardProduct from "../Components_utils/CardProduct";
 import "./__carousel.css";
 import { TbArrowBadgeRightFilled, TbArrowBadgeLeftFilled} from "react-icons/tb";
