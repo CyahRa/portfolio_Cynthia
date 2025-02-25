@@ -10,7 +10,7 @@ const portfolioSectionsSlice = createSlice({
   name: "portfolioSections",
   initialState: [] as Section[],
   reducers: {
-    setSections: (state, action: PayloadAction<Section[]>) => {
+    setSections: (_state, action: PayloadAction<Section[]>) => {
       return action.payload;
     },
   },
