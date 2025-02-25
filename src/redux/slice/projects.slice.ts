@@ -15,7 +15,7 @@ const projectsSlice = createSlice({
     addProject: (state, action: PayloadAction<Project>) => {
       state.push(action.payload);
     },
-    setProjects: (state, action: PayloadAction<Project[]>) => {
+    setProjects: (_state, action: PayloadAction<Project[]>) => {
       return action.payload;
     },
   },
