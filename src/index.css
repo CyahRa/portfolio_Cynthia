@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+
+  --default-color: #FF497C;
+  --primary-color: #CE4257;
+  --secondary-color: #FFD700;
+  --tertiary-color:#0096C7;
+  --other-color:#41d3bd;
+}
+
+@font-face {
+    font-family: 'Sacramento';
+    src: url('./assets/fonts/Sacramento-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'PlaywriteGBS-Regular';
+    src: url('./assets/fonts/Playwrite/PlaywriteGBS-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Merriweather';
+    src: url('./assets/fonts/Merriweather/Merriweather-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  small{
+    font-family: "Sacramento", cursive;
+    font-size: 26px;
+  }
+  body{
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-size: 16px;
+    overflow-x: hidden;
+    background-color: #fdfdfd;
+  }

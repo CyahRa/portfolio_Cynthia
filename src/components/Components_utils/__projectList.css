@@ -1,0 +1,11 @@
+
+.projectCard{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.projectCard h3{
+    font-family: 'PlaywriteGBS-Regular';
+}

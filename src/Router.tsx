@@ -1,0 +1,58 @@
+import { Route, Routes, useLocation } from "react-router-dom";
+import { useEffect } from "react";
+import NavigationRoute from "./NavigationRoutes";
+import HomePage from "./components/Home/HomePage";
+import About from "./components/About/About";
+import Project from "./components/Project/Project";
+import Tools from "./components/Tools/Tools";
+import Home from "./pages/Home";
+import PublicRequire from "./components/auth/PublicRequire";
+
+const Router = () => {
+  const location = useLocation();
+
+  // Met à jour le titre en fonction de la route active
+  useEffect(() => {
+    switch (location.pathname) {
+      case NavigationRoute.HOMEPAGE:
+        document.title = "Home - Cynthia Rakotoarison";
+        break;
+      case "/home":
+        document.title = "Home - Cynthia Rakotoarison";
+        break;
+      case "/projects":
+        document.title = "Projets - Cynthia Rakotoarison";
+        break;
+      case "/tools":
+        document.title = "Outils - Cynthia Rakotoarison";
+        break;
+      case "/about":
+        document.title = "À propos - Cynthia Rakotoarison";
+        break;
+      case "/contact":
+        document.title = "Contact - Cynthia Rakotoarison";
+        break;
+      default:
+        document.title = "Mon Application";
+    }
+  }, [location]);
+
+  return (
+    <Routes>
+      {/* Routes publiques */}
+      <Route element={<PublicRequire />}>
+        <Route path={NavigationRoute.HOMEPAGE} element={<Home />}>
+          <Route index element={<HomePage />} />
+          <Route path="home" element={<HomePage />} />
+          <Route path="projects" element={<Project/>} />
+          <Route path="tools" element={<Tools />} />
+          <Route path="about" element={<About  />} />
+        </Route>
+
+        {/* <Route path="*" element={<NotFoundPage />} /> */}
+      </Route>
+    </Routes>
+  );
+};
+
+export default Router;

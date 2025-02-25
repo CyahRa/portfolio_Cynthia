@@ -1,0 +1,141 @@
+
+.event:nth-child(odd) {
+    transform: translateX(-200%);
+}
+.event:nth-child(.event-item) {
+    transform: translateX(100%);
+}
+
+/* .timeline {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  .wrap {
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    height: 100vh;
+    transition: transform 1s ease-in;
+    transform-style: preserve-3d;
+  }
+  .content-box{
+    background-color: #fff;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    z-index: 12;
+    box-shadow:  0 4px 6px -1px rgba(0 ,0 ,0 ,0.04);
+  }
+ 
+  .items{
+    background-color: #000;
+  }
+  .wrap .timeline{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    font: bold 3em sans-serif;
+    line-height: 350px;
+  }
+  .wrap .content-box{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font: bold 3em sans-serif;
+    line-height: 350px;
+  }
+  
+
+  
+  svg.timeline-item {
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+  }
+  
+  text {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .icon svg{
+    font-size: 30px;
+    color: #fff;
+  }
+
+.icon{
+  background:#ffd000;
+  align-items: center;
+  padding: .5rem;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+} */
+
+.wrap {
+  position: relative;
+  margin: 8rem auto;
+  width: 400px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 1s ease-in;
+  transform-style: preserve-3d;
+}
+
+.timeline {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeline-item {
+  margin: 0 auto;
+  height: 500px;
+  overflow: visible;
+}
+
+.content-box {
+  position: absolute;
+  background-color: #fff;
+  width: 300px;
+
+  border-radius: 10px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.04);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.icon svg {
+  font-size: 30px;
+  color: #fff;
+}
+
+.icon {
+  align-items: center;
+  padding: 0.5rem;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
