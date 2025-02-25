@@ -26,7 +26,7 @@ const projects: Project[] = [
     technologies: ["Mongodb","Express", "React", "NodeJs","Typescript","Tailwind"] ,
     link: "",
     category: "Developpement",
-    images: ["assets/images/images/projets/SDR.jpg"]
+    images: ["./assets/images/images/projets/SDR.jpg"]
   },
   {
     id: 2,
