@@ -26,7 +26,7 @@ const projects: Project[] = [
     technologies: ["Mongodb","Express", "React", "NodeJs","Typescript","Tailwind"] ,
     link: "",
     category: "Developpement",
-    images: ["src/assets/images/images/projets/SDR.png"]
+    images: ["src/assets/images/images/projets/SDR.jpg"]
   },
   {
     id: 2,
@@ -35,7 +35,7 @@ const projects: Project[] = [
     technologies: ["Photoshop", "Adobe illustrator"],
     link: "",
     category: "UX/UI",
-    images: ["src/assets/images/images/projets/autocollant-maresa.png"]
+    images: ["src/assets/images/images/projets/autocollant-maresa.jpg"]
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ const projects: Project[] = [
     technologies: ["Photoshop", "Adobe illustrator","Visily"],
     link: "",
     category: "UX/UI",
-    images: ["src/assets/images/images/projets/flyers.png"]
+    images: ["src/assets/images/images/projets/flyers.jpg"]
   },
   {
     id: 4,
@@ -53,7 +53,7 @@ const projects: Project[] = [
     technologies: ["Html","Css","Bootstrap"],
     link: "",
     category: "Developpement", 
-    images: ["src/assets/images/images/projets/portfolio.png"]
+    images: ["src/assets/images/images/projets/portfolio.jpg"]
   },
   { 
     id: 5, 
@@ -62,7 +62,7 @@ const projects: Project[] = [
     technologies: ["Mongodb","Express", "React", "NodeJs","Typescript","Bulma"], 
     link: "https://invest-mada-express-app.vercel.app/", 
     category: "Developpement",
-    images: ["src/assets/images/images/projets/invest.png"] 
+    images: ["src/assets/images/images/projets/invest.jpg"] 
   },
   { 
     id: 6, 
@@ -71,7 +71,7 @@ const projects: Project[] = [
     technologies: [], 
     link: "https://vote-chi-sepia.vercel.app/", 
     category: "Developpement", 
-    images: ["src/assets/images/images/projets/isafidy.png"] 
+    images: ["src/assets/images/images/projets/isafidy.jpg"] 
   },
   { 
     id: 7, 
@@ -80,7 +80,7 @@ const projects: Project[] = [
     technologies: ["Visily","Figma","Adbe Illustartor"], 
     link: "", 
     category: "UX/UI", 
-    images: ["src/assets/images/images/projets/bbmay.png"] 
+    images: ["src/assets/images/images/projets/bbmay.jpg"] 
   },
   { 
     id: 8, 
@@ -89,7 +89,7 @@ const projects: Project[] = [
     technologies: ["Mongodb","Express", "Angular", "NodeJs","Typescript"], 
     link: "https://portfolio-eosin-sigma-73.vercel.app/", 
     category: "Developpement", 
-    images: ["src/assets/images/images/projets/portfolioCyah.png"] 
+    images: ["src/assets/images/images/projets/portfolioCyah.jpg"] 
   },
 
 ]
