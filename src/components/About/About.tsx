@@ -79,16 +79,16 @@ const About = () => {
 
         <div>
           <h1 className="text-[#ff0450]  mb-10 ">Qui suis-je ? </h1>
-          <p className="text-xl  text-gray-700 ml-7">
+          <p className="text-lg  text-gray-700 ml-7">
             Je m’appelle Rakotoarison Holiarisoa Cynthia,
             jeune diplômée de l’Institut Supérieure Polytechnique de Madagascar dans le domaine de
             l’Informatique de Gestion Génie logiciel et Intelligence Artificielle, j’ai un fort intérêt pour l’UX/UI et le design interactif.
           </p>
-          <p className="text-xl  text-gray-700 my-2 ml-7">
+          <p className="text-lg  text-gray-700 my-2 ml-7">
             J’ai exploré  d’avantage les interactions homme-machine, le design d’expérience afin de pouvoir me perfectionner dans
             ce domaine dans le but de créer des interfaces intuitives et concevoir des expériences digitales qui marquent les esprits.
           </p >
-          <p className="text-xl  text-gray-700 my-2 ml-7">
+          <p className="text-lg  text-gray-700 my-2 ml-7">
             J’ai participé à des challenges de développement qui m’as permi de repousser mes limites et d’avoir un réel intérêt pour le design
             comme :
             <ul className="list-disc ml-20 mt-5">
