@@ -17,20 +17,17 @@ const Router = () => {
       case NavigationRoute.HOMEPAGE:
         document.title = "Home - Cynthia Rakotoarison";
         break;
-      case "/home":
+      case NavigationRoute.HOME:
         document.title = "Home - Cynthia Rakotoarison";
         break;
-      case "/projects":
+      case NavigationRoute.PROJECTS:
         document.title = "Projets - Cynthia Rakotoarison";
         break;
       case "/tools":
         document.title = "Outils - Cynthia Rakotoarison";
         break;
-      case "/about":
+      case NavigationRoute.ABOUT:
         document.title = "À propos - Cynthia Rakotoarison";
-        break;
-      case "/contact":
-        document.title = "Contact - Cynthia Rakotoarison";
         break;
       default:
         document.title = "Mon Application";
