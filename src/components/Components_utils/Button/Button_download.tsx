@@ -24,7 +24,7 @@ const Button_download = () => {
             <div className="w-10 h-10 bg-[#ff0450] flex place-content-center items-center rounded-full absolute -left-28"> <BsSendArrowDownFill size={24} color="#fcfcf7" /> </div>
             <a href="#" onClick={handleDownloadNote}  className="btn-slide">
                 <span className="circle text-center"><BiMailSend className='mx-auto my-1' /></span>
-                <span className="title">Contactez moi</span>
+                <span className="title">Note et Diplôme</span>
                 <span className="title-hover">Clique ici</span>
             </a>
             <a href="#" onClick={handleDownload} className="btn-slide2">
