@@ -105,7 +105,7 @@ const NavigationBar = () => {
           </StyledLink>
         </NavItem>
         <NavItem>
-          <StyledLink to={NavigationRoute.ABOUT} activeColor="#ff0450" isActive={location.pathname === NavigationRoute.ABOUT}>
+          <StyledLink to={NavigationRoute.ABOUT} activeColor="#ff0450" isActive={location.pathname === NavigationRoute.ABOUT|| location.pathname === "/about"}>
             <IconContainer isActive={location.pathname === NavigationRoute.ABOUT} activeColor="#ff0450">
               <SiAboutdotme size={24} />
             </IconContainer>
@@ -113,7 +113,7 @@ const NavigationBar = () => {
           </StyledLink>
         </NavItem>
         <NavItem>
-          <StyledLink to={NavigationRoute.PROJECTS} activeColor="#f9c80e" isActive={location.pathname === NavigationRoute.PROJECTS}>
+          <StyledLink to={NavigationRoute.PROJECTS} activeColor="#f9c80e" isActive={location.pathname === NavigationRoute.PROJECTS|| location.pathname === "/projects"}>
             <IconContainer isActive={location.pathname === NavigationRoute.PROJECTS} activeColor="#f9c80e">
               <TbDeviceImacCode size={24} />
             </IconContainer>
