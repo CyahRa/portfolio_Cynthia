@@ -1,5 +1,5 @@
-import photo from "../../assets/images/images/sary.jpeg";
-import photo1 from "../../assets/images/images/photo.jpeg";
+import photo from "/assets/images/images/sary.jpeg";
+import photo1 from "/assets/images/images/photo.jpeg";
 import "./__homePage.css";
 import Card from "./Card";
 import { IoIosImages} from "react-icons/io";

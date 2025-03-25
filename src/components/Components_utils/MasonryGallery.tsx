@@ -1,8 +1,8 @@
 import styled from "styled-components"
-import gal1 from "../../assets/images/gallery/gal1.jpg";
-import gal2 from "../../assets/images/gallery/gal2.jpg";
-import gal3 from "../../assets/images/gallery/gal3.jpeg";
-import gal4 from "../../assets/images/gallery/gal4.jpeg";
+import gal1 from "/assets/images/gallery/gal1.jpg";
+import gal2 from "/assets/images/gallery/gal2.jpg";
+import gal3 from "/assets/images/gallery/gal3.jpeg";
+import gal4 from "/assets/images/gallery/gal4.jpeg";
 // import gal5 from "../../assets/images/gallery/gal5.jpeg";
 // import gal6 from "../../assets/images/gallery/gal6.jpeg";
 // import gal7 from "../../assets/images/gallery/gal7.jpeg";
