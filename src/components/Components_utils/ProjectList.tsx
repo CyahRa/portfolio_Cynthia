@@ -53,7 +53,7 @@ const ProjectList: React.FC<ProjectListProps> = ({projects,selectedCategory}) =>
                     viewport={{ once: false }}
                         >
                             <div className=' relative border-8  w-[540px] h-[320px]' style={{borderColor:  '#ccc3af'}}></div>
-                            <img key={index} src={image} className='absolute left-4 -mt-12 w-[85%] h-[340px] bg-slate-900 border rounded-lg object-cover object-top ' alt="" />
+                            <img key={index} src={image} className='absolute left-4 -mt-12 w-[95%] h-[340px] bg-slate-900 border rounded-lg object-cover object-top ' alt="" />
                         </motion.div>
                           
                                 
