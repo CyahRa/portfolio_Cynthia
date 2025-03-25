@@ -43,10 +43,11 @@ const Router = () => {
       <Route element={<PublicRequire />}>
         <Route path={NavigationRoute.HOMEPAGE} element={<Home />}>
           <Route index element={<HomePage />} />
-          <Route path="home" element={<HomePage />} />
-          <Route path="projects" element={<Project/>} />
-          <Route path="tools" element={<Tools />} />
-          <Route path="about" element={<About  />} />
+          <Route path={NavigationRoute.HOME} element={<HomePage />} />
+          <Route path={NavigationRoute.PROJECTS}  element={<Project/>} />
+          <Route path={NavigationRoute.TOOLS}  element={<Tools />} />
+          <Route path={NavigationRoute.ABOUT}  element={<About  />} />
+
         </Route>
 
         {/* <Route path="*" element={<NotFoundPage />} /> */}
