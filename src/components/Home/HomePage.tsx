@@ -149,7 +149,7 @@ const HomePage = () => {
             en alliant fonctionnalité et beauté dans chaque projet, 
             tout en mettant en avant une créativité qui reflète l'âme du design moderne.
           </p>
-          <Button link="/about" text="À propos de moi"/>
+          <Button link={NavigationRoute.ABOUT} text="À propos de moi"/>
           <BackgroundRight />
         </div>
         
