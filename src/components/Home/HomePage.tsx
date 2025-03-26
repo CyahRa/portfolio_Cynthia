@@ -11,6 +11,7 @@ import BackgroundRight from "./BackgroundRight";
 import { motion } from "framer-motion"; // Import framer-motion
 import Button from "../Components_utils/Button/Button";
 import Carousel from "../Components_utils/Carousel";
+import NavigationRoute from "../../NavigationRoutes";
 import { useNavigate } from "react-router-dom";
 import ScrollToTopButton from "../Components_utils/Button/Button_backTop";
 
