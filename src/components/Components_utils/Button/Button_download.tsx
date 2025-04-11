@@ -12,21 +12,15 @@ const Button_download = () => {
         link.click()
 
     }
-    const handleDownloadNote = () =>{
-        const link = document.createElement("a")
-        link.href = "/note et diplome.pdf"
-        link.download = "Note_Rakotoarison Cynthia.pdf"
-        link.click()
 
-    }
     return (
         <div id="wrap">
             <div className="w-10 h-10 bg-[#ff0450] flex place-content-center items-center rounded-full absolute -left-28"> <BsSendArrowDownFill size={24} color="#fcfcf7" /> </div>
-            <a href="#" onClick={handleDownloadNote}  className="btn-slide">
+            {/* <a href=""   className="btn-slide">
                 <span className="circle text-center"><BiMailSend className='mx-auto my-1' /></span>
                 <span className="title">Note et Diplôme</span>
                 <span className="title-hover">Clique ici</span>
-            </a>
+            </a> */}
             <a href="#" onClick={handleDownload} className="btn-slide2">
                 <span className="circle2 text-center"><FaDownload size={24} className='mx-auto my-1' /></span>
                 <span className="title2">Télécharger mon CV</span>

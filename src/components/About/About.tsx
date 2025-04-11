@@ -48,7 +48,7 @@ const About = () => {
               <h1 className="text-[#3b3b3baf] my-10 flex justify-center items-center " >
                 Je suis là pour vous aider !
               </h1>
-              <p className="text-lg  text-gray-700">Passionné par la création d'expériences numériques, j'allie design et développement
+              <p className="text-lg w-[500px]  text-gray-700">Passionné par la création d'expériences numériques, j'allie design et développement
                 pour donner vie à des interfaces intuitives et engageantes. Chaque projet est une opportunité de repousser mes limites
                 et d'explorer de nouvelles approches.
 
@@ -57,7 +57,7 @@ const About = () => {
             <div>
               <div className="w-10 h-10 bg-[#ff0450] flex place-content-center items-center rounded-full absolute -left-28"> <GoGoal size={30} color="#fcfcf7" /> </div>
               <h1 className="text-[#3b3b3baf] flex justify-center items-center my-14">Mon objectif ? <br /></h1>
-              <p className="text-lg  text-gray-700"> Transformer des idées en solutions concrètes, en mettant l'accent sur l'ergonomie, l'accessibilité et l'innovation.
+              <p className="text-lg w-[500px] text-gray-700"> Transformer des idées en solutions concrètes, en mettant l'accent sur l'ergonomie, l'accessibilité et l'innovation.
                 Que ce soit pour concevoir un site web, une application ou un prototype interactif, je mets mon expertise au service de vos ambitions.
               </p>
 
