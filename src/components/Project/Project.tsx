@@ -23,9 +23,9 @@ const projects: Project[] = [
     id: 1,
     title: "Application de rencontre",
     description: "Le projet conçu est intitulé « SDR » c’est l’acronyme de « site de rencontre », comme son nom l’explique déjà, le projet vise à créer une plateforme moderne et intuitive où les utilisateurs peuvent se connecter et interagir de manière significative. Conçu pour favoriser des rencontres authentiques,spécifiquement conçue pour la population malgache.",
-    technologies: ["Mongodb","Express", "React", "NodeJs","Typescript","Tailwind"] ,
+    technologies: ["Mongodb","Express", "React", "NodeJs","Typescript","Tailwind","Figma"] ,
     link: "https://www.figma.com/design/Wla11mPOouuAV8YLzNjMkc/Untitled?node-id=0-1&t=SBQvOZUu3XUs1kn5-1",
-    category: "UX/UI",
+    category: "UX/UI" ,
     images: ["assets/images/images/projets/SDR.jpg"]
   },
   {
