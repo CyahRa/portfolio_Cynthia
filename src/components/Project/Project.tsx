@@ -24,8 +24,8 @@ const projects: Project[] = [
     title: "Application de rencontre",
     description: "Le projet conçu est intitulé « SDR » c’est l’acronyme de « site de rencontre », comme son nom l’explique déjà, le projet vise à créer une plateforme moderne et intuitive où les utilisateurs peuvent se connecter et interagir de manière significative. Conçu pour favoriser des rencontres authentiques,spécifiquement conçue pour la population malgache.",
     technologies: ["Mongodb","Express", "React", "NodeJs","Typescript","Tailwind"] ,
-    link: "",
-    category: "Developpement",
+    link: "https://www.figma.com/design/Wla11mPOouuAV8YLzNjMkc/Untitled?node-id=0-1&t=SBQvOZUu3XUs1kn5-1",
+    category: "UX/UI",
     images: ["assets/images/images/projets/SDR.jpg"]
   },
   {
@@ -77,7 +77,7 @@ const projects: Project[] = [
     id: 7, 
     title: "Site e-commerce", 
     description: "C'est une maquette d'un site e-commerce intitulé « Bbmay », c'est un site réserver uniquement pour mères et enfants. C'est un site de vente en ligne d'article pour les bébés et leurs mamans qui se situe à mayotte d'où son nom. ", 
-    technologies: ["Visily","Figma","Adbe Illustartor"], 
+    technologies: ["Visily","Figma","Adobe Illustartor"], 
     link: "", 
     category: "UX/UI", 
     images: ["assets/images/images/projets/bbmay.jpg"] 
@@ -90,6 +90,15 @@ const projects: Project[] = [
     link: "https://portfolio-eosin-sigma-73.vercel.app/", 
     category: "Developpement", 
     images: ["assets/images/images/projets/portfolioCyah.jpg"] 
+  },
+  { 
+    id: 8, 
+    title: "Design d'une application mobile de Formule 1", 
+    description: "C'est une application mobile qui montre tous les actualités, et tous ce qu'il faut savoir sur la formule 1. Il y a aussi les courses direct et les positions en temps réel des pilotes. ", 
+    technologies: ["Figma","Adobe Illustartor","Photoshop"], 
+    link: "https://www.figma.com/design/Q0o2t7SUVDU3TqHtM5P4si/Untitled?t=wXVEgtHjevS8iv2j-1", 
+    category: "UX/UI", 
+    images: ["assets/images/images/projets/mobile.jpg"] 
   },
 
 ]
