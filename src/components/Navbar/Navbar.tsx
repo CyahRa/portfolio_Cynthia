@@ -125,7 +125,7 @@ const NavigationBar = () => {
             <IconContainer isActive={location.pathname === NavigationRoute.TOOLS} activeColor="#8d99ae">
               <TbCodeCircle2Filled  size={34} />
             </IconContainer>
-            <Label isActive={location.pathname === NavigationRoute.TOOLS} activeColor="#8d99ae">Outils</Label>
+            <Label isActive={location.pathname === NavigationRoute.TOOLS} activeColor="#8d99ae">Compétences</Label>
           </StyledLink>
         </NavItem>
         

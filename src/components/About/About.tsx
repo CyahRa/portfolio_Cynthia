@@ -93,10 +93,13 @@ const About = () => {
             comme :
             <ul className="list-disc ml-20 mt-5">
               <li>
-                <span className="font-bold text-[#ff0450] italic">Hackathon interuniversitaire de 2022</span>  (1er prix)
+                <span className="font-bold text-[#ff0450] italic">Hackathon interuniversitaire de 2022</span> <br />
+                (1er prix)
+                <span className="text-sm italic">organisé par TechZara </span>  
               </li>
               <li>
-                <span className="font-bold text-[#ff0450] italic">Frontend award 2023</span>
+                <span className="font-bold text-[#ff0450] italic">Frontend award 2023</span> <br />
+                <span className="text-sm italic">organisé par TechZara </span>
               </li>
             </ul>
           </p>
