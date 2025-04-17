@@ -30,7 +30,7 @@ const FilterSkills : React.FC<FilterProps>  = ({categories,selectedCategory,onFi
 const styles = {
     filterContainer:{
         display: "flex", 
-        flexDirection:"column",
+        FlexDirection:"column",
         justifyContent: "center",
         marginBotom: "20px",
         gap: "2rem",
