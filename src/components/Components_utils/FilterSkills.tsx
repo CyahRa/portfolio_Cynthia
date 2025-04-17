@@ -27,25 +27,28 @@ const FilterSkills : React.FC<FilterProps>  = ({categories,selectedCategory,onFi
     </div>
   )
 }
-const styles = {
-    filterContainer:{
-        display: "flex", 
-        FlexDirection:"column",
-        justifyContent: "center",
-        marginBotom: "20px",
-        gap: "2rem",
-        fontSize: "20px"
-    } ,
-    filterButton:{
-        padding: "0 20px",
-        width: "200px",
-        display:"flex",
-        gap:"10px",
-        alignItems:"center",
-        border: "none",
-        cursor: "pointer",
-        BackgroundColor: "transparent",
+const styles: {
+    filterContainer: React.CSSProperties;
+    filterButton: React.CSSProperties;
+  } = {
+    filterContainer: {
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+      marginBottom: "20px",
+      gap: "2rem",
+      fontSize: "20px"
+    },
+    filterButton: {
+      padding: "0 20px",
+      width: "200px",
+      display: "flex",
+      gap: "10px",
+      alignItems: "center",
+      border: "none",
+      cursor: "pointer",
+      backgroundColor: "transparent"
     }
-}
-
+  };
+  
 export default FilterSkills
