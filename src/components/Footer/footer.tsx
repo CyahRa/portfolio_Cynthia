@@ -9,6 +9,12 @@ const footer = () => {
         event.preventDefault();
         window.open("https://www.github.com/CyahRa", '_blank', 'noopener,noreferrer')
     }
+    
+     const handleRedirectLinkedin = (event:any) =>{
+        event.preventDefault();
+        window.open("https://www.linkedin.com/in/cynthia-rakotoarison", '_blank', 'noopener,noreferrer')
+    }
+
   return (
     <div className="bg-neutral-800 text-center p-8"> 
         <h3 className="text-white">N'hésitez pas à me contacter</h3> 
@@ -19,8 +25,11 @@ const footer = () => {
             <button onClick={handleRedirectGit}>
             <span className="bg-white text-center w-12 h-12 rounded-full flex items-center justify-center"><TiSocialGithub size={40}/></span>
 
-            </button>
+            </button >
+            <button onClick={handleRedirectLinkedin}>
             <span className="bg-white text-center w-12 h-12 rounded-full flex items-center justify-center"><TiSocialLinkedin size={40}/> </span>
+
+            </button >
         </div> 
         
     </div>

@@ -30,33 +30,15 @@ const projects: Project[] = [
   },
   {
     id: 2,
-    title: "Autocollant ",
-    description: "Conception d'un autocollant unique pour Maresamada,un site de réservation en ligne spécialement pour madagascar, reflétant l'identité visuelle de la marque.Elle a été conçue dans le cadre d'un mise en valeur du site afin d'attirer les différents hebergements à s'inscrire dans le plateforme, Cet autocollant à été ",
-    technologies: ["Photoshop", "Adobe illustrator"],
-    link: "",
+    title: "Site pour un université ",
+    description: "Conception d'un site pour un université pour mettre en avant les formations, les actualités et les services à destination des étudiants, enseignants et partenaires institutionnels. L’objectif principal était de créer une interface intuitive, responsive et visuellement cohérente avec l’identité de l’université. ",
+    technologies: ["Figma", "Adobe illustrator"],
+    link: "https://www.figma.com/design/QMrBMrNApIu9U3QrrxlG05/Untitled?m=auto&t=CzpE9Z8edhXkrF6J-6",
     category: "UX/UI",
-    images: ["assets/images/images/projets/autocollant-maresa.jpg"]
-  },
-  {
-    id: 3,
-    title: "Flyers",
-    description: "Ce flyers a été conçu pour les partenaires de Maresamada afin de leur offrir une présentation claire et attrayante du site et de ses missions.L'objectif principale était de communiquer efficacement sur l'identité et les valeurs de Maresamada tout rn mettant en avant ces objectifs et ses services.",
-    technologies: ["Photoshop", "Adobe illustrator","Visily"],
-    link: "",
-    category: "UX/UI",
-    images: ["assets/images/images/projets/flyers.jpg"]
-  },
-  {
-    id: 4,
-    title: "Portfolio",
-    description: "Ce projet fait l'objet de création d'un portfolio pour un client, il montre les postes que le client à occuper et aussi les services que le client a à offrir avec les réalisation de ce dernier dans différent domaine.",
-    technologies: ["Html","Css","Bootstrap"],
-    link: "",
-    category: "Developpement", 
-    images: ["assets/images/images/projets/portfolio.jpg"]
+    images: ["assets/images/images/projets/Site university.jpg"]
   },
   { 
-    id: 5, 
+    id: 6, 
     title: "Application pour les investisseur", 
     description: "C'est une application web ,qu'on a développé au cours de notre parcours à l'université, qui a pour but d'attirer les investisseurs à investir à Madagascar en leur proposant toutes les ressources exploitable afin de s'enrichir de leurs investissements, mais aussi, de leurs offrir un support accessible pour mieux les orientés vers le secteur à investir qui leur est adéquat.", 
     technologies: ["Mongodb","Express", "React", "NodeJs","Typescript","Bulma"], 
@@ -65,7 +47,7 @@ const projects: Project[] = [
     images: ["assets/images/images/projets/invest.jpg"] 
   },
   { 
-    id: 6, 
+    id: 7, 
     title: "Application pour voter ", 
     description: "C'est un projet d'étude qui a pour objectif d'améliorer le vote à madagascar en le digitalisant pour la transparence des votes. pour éviter les corruptions des résultats de vote.", 
     technologies: [], 
@@ -74,7 +56,7 @@ const projects: Project[] = [
     images: ["assets/images/images/projets/isafidy.jpg"] 
   },
   { 
-    id: 7, 
+    id: 8, 
     title: "Site e-commerce", 
     description: "C'est une maquette d'un site e-commerce intitulé « Bbmay », c'est un site réserver uniquement pour mères et enfants. C'est un site de vente en ligne d'article pour les bébés et leurs mamans qui se situe à mayotte d'où son nom. ", 
     technologies: ["Visily","Figma","Adobe Illustartor"], 
@@ -83,7 +65,7 @@ const projects: Project[] = [
     images: ["assets/images/images/projets/bbmay.jpg"] 
   },
   { 
-    id: 8, 
+    id: 9, 
     title: "Mon ancien portfolio", 
     description: "Mon ancien portfolio qui à la différence du nouveau a été developpé en Angular. Ce portfolio m'a permis de poser les bases de ma  présence en ligne et de prendre conscience des aspects à améliorer, comme l'esthétique, l'organisation et l'interactivité.", 
     technologies: ["Mongodb","Express", "Angular", "NodeJs","Typescript"], 
@@ -92,7 +74,7 @@ const projects: Project[] = [
     images: ["assets/images/images/projets/portfolioCyah.jpg"] 
   },
   { 
-    id: 8, 
+    id: 10, 
     title: "Design d'une application mobile de Formule 1", 
     description: "C'est une application mobile qui montre tous les actualités, et tous ce qu'il faut savoir sur la formule 1. Il y a aussi les courses direct et les positions en temps réel des pilotes. ", 
     technologies: ["Figma","Adobe Illustartor","Photoshop"], 
