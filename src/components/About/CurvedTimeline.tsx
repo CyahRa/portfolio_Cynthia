@@ -36,7 +36,7 @@ const TimelineCurved = () => {
             <div className="timeline"></div>
 
             {/* SVG Timeline */}
-            <svg width="800" className="timeline-item" >
+            <svg width="800" className="timeline-item" height="900">
                 <motion.path
                     d={pathData}
                     stroke=" #e6e9ed"
