@@ -87,9 +87,9 @@
 
 .wrap {
   position: relative;
-  margin: 0 auto 8rem auto;
+  margin: 0 auto 2rem auto;
   width: 400px;
-  min-height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
