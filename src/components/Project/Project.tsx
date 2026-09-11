@@ -24,6 +24,7 @@ const projects: Project[] = [
 const Project: React.FC = () => {
   const [searchParams] = useSearchParams();
   const [selectedCategory, setSelectedCategory] = useState("Tous");
+
   useEffect(() => {
     const category = searchParams.get("category");
     if (["UX/UI", "Developpement", "Tous"].includes(category || "")) setSelectedCategory(category!);
@@ -31,12 +32,28 @@ const Project: React.FC = () => {
 
   return (
     <main className="projectsPage">
-      <section className="projectsHero">
-        <p className="projectsEyebrow">MON TRAVAIL</p>
-        <h1>Projects<span>.</span></h1>
-        <p className="projectsIntro">Une sélection de projets où je mêle <strong>UX/UI design</strong>, réflexion produit et développement pour créer des expériences utiles, claires et intuitives.</p>
+      <section className="projectsHero" aria-label="Introduction aux projets">
+        <div className="projectsHeroImage">
+          <img src={projects[0].images[0]} alt="Projet IINB — Immobilier Nosy Be" />
+          <div className="projectsHeroShade" />
+          <div className="projectsHeroMeta">
+            <span>Selected work / 2026</span>
+            <span>UX/UI · Development</span>
+          </div>
+          <div className="projectsHeroTitle">
+            <span className="projectsEyebrow">MON TRAVAIL</span>
+            <h1>Projects<span>.</span></h1>
+            <p>Des expériences digitales pensées entre <strong>design, produit et technologie</strong>.</p>
+          </div>
+          <span className="projectsHeroScroll">SCROLL TO EXPLORE ↓</span>
+        </div>
       </section>
+
       <section className="projectsContent" aria-label="Liste des projets">
+        <div className="projectsSectionIntro">
+          <span>01 — WORKS</span>
+          <p>Une sélection de projets où chaque interface cherche son propre langage.</p>
+        </div>
         <Filter categories={["Tous", "UX/UI", "Developpement"]} selectedCategory={selectedCategory} onFilterChange={setSelectedCategory} />
         <ProjectList projects={projects} selectedCategory={selectedCategory} />
       </section>
