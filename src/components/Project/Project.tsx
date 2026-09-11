@@ -31,12 +31,12 @@ const Project: React.FC = () => {
 
   return (
     <main className="projectsPage">
-      <section className="projectsHero">
-        <p className="projectsEyebrow">MON TRAVAIL</p>
-        <h1>Projects<span>.</span></h1>
-        <p className="projectsIntro">Une sélection de projets où je mêle <strong>UX/UI design</strong>, réflexion produit et développement pour créer des expériences utiles, claires et intuitives.</p>
-      </section>
       <section className="projectsContent" aria-label="Liste des projets">
+        <div className="projectsHero">
+          <p className="projectsEyebrow">MON TRAVAIL</p>
+          <h1>Projects<span>.</span></h1>
+          <p className="projectsIntro">Une sélection de projets où je mêle <strong>UX/UI design</strong>, réflexion produit et développement pour créer des expériences utiles, claires et intuitives.</p>
+        </div>
         <Filter categories={["Tous", "UX/UI", "Developpement"]} selectedCategory={selectedCategory} onFilterChange={setSelectedCategory} />
         <ProjectList projects={projects} selectedCategory={selectedCategory} />
       </section>
